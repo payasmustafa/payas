@@ -1,0 +1,10 @@
+var yas = 15
+
+if(yas < 18 ){
+    console.log('Ehliyet alamassiniz')
+}
+
+if(yas >18){
+    console.log('Ehliyet alabilirsiniz')
+
+}
