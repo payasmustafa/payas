@@ -1,0 +1,25 @@
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("1. Açıyı Giriniz");
+            int aci1 = Convert.ToInt32(Console.ReadLine());
+           
+            Console.WriteLine("2. Açıyı Giriniz");
+            int aci2 = Convert.ToInt32(Console.ReadLine());
+
+            int toplam = aci1 + aci2;
+            int bilinmeyenaci = 180 - toplam;
+
+            Console.WriteLine("Bilinmeyen Açı = " + bilinmeyenaci ) ;
+
+
+        }
+    }
+}
