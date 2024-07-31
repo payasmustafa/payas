@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int s1, s2, s3;
+            Console.WriteLine("1. Sayıyı Giriniz : ");
+            s1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("2. Sayıyı Giriniz : ");
+            s2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("3. Sayıyı Giriniz : ");
+            s3 = Convert.ToInt32(Console.ReadLine());
+
+            if(s1 > s2  && s1 > s3)
+            {
+
+                Console.WriteLine("1. Sayı En Büyüktür");
+            
+            }
+            
+            else if ( s2 > s1 && s2 > s3)
+            {
+
+                Console.WriteLine("2. Sayı En Büyüktür");
+
+            }
+            else if ( s3 > s1 && s3 > s2)
+            {
+
+                Console.WriteLine("3. Sayı En Büyüktür");
+
+            }
+
+
+
+
+
+
+        }
+    }
+}
